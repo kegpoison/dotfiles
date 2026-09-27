@@ -2,7 +2,7 @@
 	defaultBranch = main
 [user]
     name = kegpoison
-	email = ugglefluffie@gmail.com
+	email = kegpoison@proton.me
 [gpg]
 	format = ssh
 [gpg "ssh"]
