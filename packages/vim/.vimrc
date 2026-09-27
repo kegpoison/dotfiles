@@ -74,6 +74,7 @@ let g:tex_flavor='latex'
 " }}} VimTeX
 " VIM-LSP {{{
 let g:lsp_signs_enabled = 1
+let g:lsp_diagnostics_enabled = 0
 " }}} VIM-LSP
 " ASYNCOMPLETE {{{
 let g:asyncomplete_auto_popup = 1
