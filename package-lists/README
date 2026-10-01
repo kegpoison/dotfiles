@@ -1,0 +1,13 @@
+Package Lists
+=============
+
+This directory contains lists of packages per package manager used. Each line
+contains a single package;
+    foo
+    bar
+means "packages foo and bar", while
+    foo bar
+means "package 'foo bar'".
+
+Files are listed per package manager, not per distro. e.g., instead of
+<macos.txt>, the Homebrew package manager uses <homebrew.txt>.
