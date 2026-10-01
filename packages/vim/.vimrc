@@ -168,6 +168,21 @@ nnoremap ]q :cnext<CR>
 
 inoremap <expr> <C-b> pumvisible() ? "\<C-n>" : "\<C-R>=UltiSnips#JumpForwards()<CR>"
 inoremap <expr> <C-x> pumvisible() ? "\<C-p>" : "\<C-R>=UltiSnips#JumpBackwards()<CR>"
+
+vmap <Up> <Nop>
+vmap <Down> <Nop>
+vmap <Left> <Nop>
+vmap <Right> <Nop>
+
+imap <Up> <Nop>
+imap <Down> <Nop>
+imap <Left> <Nop>
+imap <Right> <Nop>
+
+map <Up> <Nop>
+map <Down> <Nop>
+map <Left> <Nop>
+map <Right> <Nop>
 " }}} BINDS
 " COMMANDS {{{
 command! E Explore
