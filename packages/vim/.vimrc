@@ -79,6 +79,22 @@ let g:tex_flavor='latex'
 " VIM-LSP {{{
 let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_enabled = 0
+
+if executable('haskell-language-server-wrapper')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'haskell-language-server',
+        \ 'cmd': {server_info->['haskell-language-server-wrapper', '--lsp']},
+        \ 'whitelist': ['haskell'],
+        \ })
+endif
+
+if executable('ols')
+    au user lsp_setup call lsp#register_server({
+        \ 'name': 'ols',
+        \ 'cmd': {server_info->['ols']},
+        \ 'allowlist': ['odin'],
+        \ })
+endif
 " }}} VIM-LSP
 " ASYNCOMPLETE {{{
 let g:asyncomplete_auto_popup = 1
