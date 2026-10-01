@@ -1,3 +1,7 @@
+" TODO:
+" 1. Remove vim-lsp-settings, do it manually (make my own?)
+" 2. Auto-set tab size (LSP -> filetype lookup backup -> 4 spaces backup?)
+
 " VIM-PLUG {{{
 call plug#begin()
 	Plug 'tpope/vim-sensible' " Smart defaults
