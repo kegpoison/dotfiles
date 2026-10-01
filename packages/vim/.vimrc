@@ -121,6 +121,11 @@ augroup lsp_install
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
+augroup filetype_js_ts
+    autocmd!
+    autocmd FileType javascript,typescript setlocal softtabstop=2 shiftwidth=2 tabstop=2
+augroup END
+
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
