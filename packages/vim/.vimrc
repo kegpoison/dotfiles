@@ -78,6 +78,7 @@ let g:tex_flavor='latex'
 " }}} VimTeX
 " VIM-LSP {{{
 let g:lsp_signs_enabled = 1
+let g:lsp_async_completion = 1
 let g:lsp_diagnostics_enabled = 0
 
 if executable('haskell-language-server-wrapper')
