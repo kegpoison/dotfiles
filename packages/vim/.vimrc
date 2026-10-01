@@ -81,6 +81,8 @@ let g:lsp_signs_enabled = 1
 let g:lsp_async_completion = 1
 let g:lsp_diagnostics_enabled = 0
 
+imap <c-space> <Plug>(asyncomplete_force_refresh)
+
 if executable('haskell-language-server-wrapper')
     au User lsp_setup call lsp#register_server({
         \ 'name': 'haskell-language-server',
