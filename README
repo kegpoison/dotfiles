@@ -6,7 +6,7 @@ These are my dotfiles. They configure various software I use.
 INSTALLATION
 ------------
 
-    git clone https://github.com/ogllgo/dotfiles.git
+    git clone https://github.com/kegpoison/dotfiles.git
     cd dotfiles
     stow [DIRECTORIES...]
 
