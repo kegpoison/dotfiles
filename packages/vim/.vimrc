@@ -52,7 +52,8 @@ let g:ale_fixers = {
 \   'cpp': ['clang-format', 'clangtidy'],
 \   'c': ['clang-format', 'clangtidy'],
 \   'python': ['black', 'isort'],
-\   'tex': ['latexindent']
+\   'tex': ['latexindent'],
+\   'odin': ['odinfmt']
 \}
 
 let g:ale_fix_on_save = 1
